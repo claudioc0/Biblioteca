@@ -4,8 +4,8 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel {
     }
 
     @Override
-    public void descricao(){
-        System.out.println("Ebook: " + titulo + " - Autor: " + autor);
+    public String descricao(){
+        return "Ebook: " + titulo + " - Autor: " + autor;
     }
 
     @Override

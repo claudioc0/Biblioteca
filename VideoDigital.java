@@ -3,8 +3,8 @@ public class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Vis
         super(titulo, autor);
     }
     @Override
-    public void descricao(){
-        System.out.println("Vídeo: " + titulo + " - Autor: " + autor);
+    public String descricao(){
+        return "Video: " + titulo + "- Autor: " + autor;
     }
 
     @Override
